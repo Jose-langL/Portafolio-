@@ -76,3 +76,57 @@ body{
     font-size: 25px;
     color: #1F4E5F;
 }
+
+/* Apartado SobreMi*/
+.Informacion{
+    margin: 0;
+    color: #1F4E5F;
+    font-size: 28px; 
+    padding: 80px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.Informacion-content {
+    padding: 15px;
+}
+
+.Informacion-content h1 {
+    color: #2E8B8B;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Hobbies {
+    flex: 1;
+    border: 3px solid #71a793;
+    border-radius: 20px;
+    padding: 15px;
+    max-width: 360px;
+    background-color: #90f0cc;
+    color: #1F4E5F
+}
+
+
+.Objetivos {
+    flex: 1;
+    border: 3px solid #5b9ab3;
+    border-radius: 20px;
+    padding: 15px;
+    max-width: 360px;
+    background-color: #8fd3ee;
+    color: #1F4E5F
+}
+
+.Habilidades {
+    flex: 1;
+    border: 3px solid #63aa7e;
+    border-radius: 20px;
+    padding: 15px;
+    max-width: 360px;
+   background-color: #8df5b4;
+   color: #1F4E5F
+}
