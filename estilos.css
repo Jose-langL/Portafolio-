@@ -310,7 +310,7 @@ body{
 
 /*Parte de contacto*/
 .formulariocontacto{ 
-    color: white;
+    color: #183b47;
     min-height: 100vh;
     display: flex;
     align-items: center;
@@ -323,16 +323,14 @@ body{
     border-radius: 20px;
     text-align: center;
     width: 340px;
-    
 }
 
 .input-group{
     display: flex;
     flex-direction: column;
     text-align: left;
-    border: 2px solid rgb(197, 193, 193);
-    box-shadow: 0 0 30px #00FFFF, 0 0 50px #A020F0, 0 0 50px #FF00FF, 0 0 30px #FFA500;
-    background-color: #0A0A2A;
+    border: 2px solid #69b0b9;
+    background-color: #c3edf3;
     border-radius:  25px;
     padding: 15px;
 }
@@ -341,7 +339,7 @@ body{
 .input-group input[type="number"],
 .input-group input[type="email"] {
     background-color: transparent;
-    color: white;
+    color: rgb(5, 101, 156);
     border: none;
     border-bottom: 1.5px solid #833983;
     width: 100%;
@@ -358,100 +356,23 @@ body{
     padding: 17px 25px;
     border-radius: 25px;
     margin-bottom: 30px;
-    background-color: #101b25;
-    border: 2px solid #3b033b;
+    background-color: #37a9b8;
+    border: 2px solid #7FC8A9;
     outline: none;
-    background-color: #0A0A2A;
-    box-shadow: 0 0 5px #00FFFF, 0 0 5px #A020F0, 0 0 5px #FF00FF, 0 0 5px #FFA500;
+    background-color: #F1F8E9;  
     color: white;
 }
 
 .input::placeholder, textarea::placeholder{
-    color: #d4d8da;
+    color: #41a1d1;
 }
 
 .btn{
     font-size: 16px;
-    color: #d6d7d8;
-    border: 1px solid white;
+    color:  #ffffff;
+    border: 1px solid #3782a0;
     border-radius: 25px;
-    background-color: #637ffc;
-    box-shadow: 0 0 3px #00FFFF, 0 0 3px #A020F0, 0 0 3px #FF00FF, 0 0 3px #FFA500;
-    cursor: pointer;
-    width: 150px;       
-    padding: 12px;
-    margin: 10px auto 0;
-}
-
-/*Parte de contacto*/
-.formulariocontacto{ 
-    color: white;
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.form{
-    padding: 50px 50px;
-    box-shadow: 0 0 20px rgb(0, 0, 0, 0.2);
-    border-radius: 20px;
-    text-align: center;
-    width: 340px;
-    
-}
-
-.input-group{
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    border: 2px solid rgb(197, 193, 193);
-    box-shadow: 0 0 30px #00FFFF, 0 0 50px #A020F0, 0 0 50px #FF00FF, 0 0 30px #FFA500;
-    background-color: #0A0A2A;
-    border-radius:  25px;
-    padding: 15px;
-}
-
-.input-group input[type="text"],
-.input-group input[type="number"],
-.input-group input[type="email"] {
-    background-color: transparent;
-    color: white;
-    border: none;
-    border-bottom: 1.5px solid #833983;
-    width: 100%;
-    outline: none;
-    font-size: 15px;
-}
-
-.label{
-    font-weight: 600px;
-    margin-bottom: 30px;   
-}
-
-.input, textarea {
-    padding: 17px 25px;
-    border-radius: 25px;
-    margin-bottom: 30px;
-    background-color: #101b25;
-    border: 2px solid #3b033b;
-    outline: none;
-    background-color: #0A0A2A;
-    box-shadow: 0 0 5px #00FFFF, 0 0 5px #A020F0, 0 0 5px #FF00FF, 0 0 5px #FFA500;
-    color: white;
-}
-
-.input::placeholder, textarea::placeholder{
-    color: #d4d8da;
-}
-
-.btn{
-    font-size: 16px;
-    color: #d6d7d8;
-    border: 1px solid white;
-    border-radius: 25px;
-    background-color: #637ffc;
-    box-shadow: 0 0 3px #00FFFF, 0 0 3px #A020F0, 0 0 3px #FF00FF, 0 0 3px #FFA500;
+    background: linear-gradient(135deg, #A8E6CF, #74C2E1, #F1F8E9);
     cursor: pointer;
     width: 150px;       
     padding: 12px;
