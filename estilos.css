@@ -130,3 +130,60 @@ body{
    background-color: #8df5b4;
    color: #1F4E5F
 }
+
+/* Apartado Tecnologias */
+.Tecnologias {
+    position: relative;
+    max-width: 600px;
+    padding:0px 20px 20px
+}
+
+.skill {
+    max-width: 600px;
+    margin: 20px 0;
+    font-size: 25px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    color: rgb(248, 248, 248);
+    padding: 1% 8px;
+}
+
+.skill p {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+    padding: 6px 8px;
+}
+
+.Progreso{
+    position: relative;
+    width: 100%;
+    height: 8px;
+    background: rgba(255, 255, 255, 0.966);
+    border-radius:500px;
+    overflow: hidden;
+    margin: 5px 0;
+    padding: 0 8px;
+}
+
+.Progreso::before{
+    content: '';
+    left: 0;
+    position: absolute;
+    width: var(--wth);
+    height: 100%;
+    background: linear-gradient(90deg, #0EA5E9, #38BDF8);
+}
+
+.Titulo{
+    padding-top: 75px;
+    margin: 0;
+    padding-bottom: 1rem;
+    color: #2E8B8B;
+    font-size: 28px; 
+    margin-bottom: 1.5rem;
+}
