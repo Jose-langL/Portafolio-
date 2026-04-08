@@ -190,10 +190,6 @@ body{
 }
 
 /* Apartado Proyectos */
-#Proyectos {
-   background: linear-gradient(135deg, #7FC8A9, #A8DADC, #74C2E1);
-}
- 
 .proy-wrapper {
     padding: 70px 10% 60px;
 }
@@ -382,11 +378,10 @@ body{
 
 /*Pie de página*/
 .piedepagina {
-  background: linear-gradient(135deg, #A8E6CF, #B2EBF2); 
   color: #1F4E5F; 
   text-align: center;
   padding: 20px;
-  border-top: 4px solid #2E8B8B; 
+  border-top: 4px solid #4ab1da; 
   font-family: 'Poppins', sans-serif;
 }
 
