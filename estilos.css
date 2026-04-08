@@ -7,6 +7,7 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
 .header {
@@ -377,4 +378,40 @@ body{
     width: 150px;       
     padding: 12px;
     margin: 10px auto 0;
+}
+
+/*Pie de página*/
+.piedepagina {
+  background: linear-gradient(135deg, #A8E6CF, #B2EBF2); 
+  color: #1F4E5F; 
+  text-align: center;
+  padding: 20px;
+  border-top: 4px solid #2E8B8B; 
+  font-family: 'Poppins', sans-serif;
+}
+
+.piedepagina h2 {
+  color: #2E8B8B; 
+  margin-bottom: 10px;
+}
+
+.piedepagina-links{
+  margin-top: 15px;
+}
+
+.piedepagina-links a {
+  color: #053d3c;;
+  text-decoration: none;
+  margin: 0 10px;
+  transition: 0.3s ease;
+}
+
+.RedesSociales{
+   margin-top: 15px;
+}
+
+.RedesSociales a{
+  font-size: 30px;
+  margin: 0 8px;
+  transition: 0.3s ease;
 }
