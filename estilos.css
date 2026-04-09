@@ -1,15 +1,15 @@
-/* Seccion inicio*/
-body{
-      background: linear-gradient(135deg, #7FC8A9, #A8DADC, #74C2E1);
-}
-
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
 
+body {
+    background: linear-gradient(135deg, #7FC8A9, #A8DADC, #74C2E1);
+}
+
+/* Seccion Header / Navbar */
 .header {
     position: fixed;
     top: 0;
@@ -21,13 +21,13 @@ body{
     border-bottom: 2px solid rgba(255, 255, 255, 0.2);
     display: flex;
     justify-content: space-between;
-    align-items: center;     
+    align-items: center;
     z-index: 100;
 }
 
-.logo{
+.logo {
     font-size: 30px;
-    color:gainsboro;
+    color: gainsboro;
     text-decoration: none;
     font-weight: 600;
 }
@@ -38,51 +38,52 @@ body{
     text-decoration: none;
     font-weight: 200;
     margin-left: 10px;
-    transition: 0.3s;
     margin-right: 10px;
     align-items: center;
+    transition: 0.3s;
 }
 
-.navbar a:hover{
+.navbar a:hover {
     color: #82f1ad;
 }
 
-.navbar a:hover i{
+.navbar a:hover i {
     color: rgb(186, 234, 243);
     transform: scale(1.2);
 }
 
-.Inicio{
-    height: 100vh;
+/* Sección Inicio */
+.Inicio {
+    height: 90vh;
     display: flex;
     align-items: center;
     padding: 0 10%;
 }
 
-.inicio-content{
+.inicio-content {
     max-width: 900px;
 }
 
-.inicio-content h1{
+.inicio-content h1 {
     font-size: 70px;
-    color: #123636;;
+    color: #123636;
 }
 
-.inicio-content h3{
+.inicio-content h3 {
     font-size: 35px;
     color: #05645e;
 }
 
-.inicio-content p{
+.inicio-content p {
     font-size: 25px;
     color: #1F4E5F;
 }
 
-/* Apartado SobreMi*/
-.Informacion{
+/* Sección Sobre Mí */
+.Informacion {
     margin: 0;
     color: #1F4E5F;
-    font-size: 28px; 
+    font-size: 28px;
     padding: 80px 20px 20px;
     display: flex;
     flex-direction: column;
@@ -108,9 +109,8 @@ body{
     padding: 15px;
     max-width: 360px;
     background-color: #90f0cc;
-    color: #1F4E5F
+    color: #1F4E5F;
 }
-
 
 .Objetivos {
     flex: 1;
@@ -119,7 +119,7 @@ body{
     padding: 15px;
     max-width: 360px;
     background-color: #8fd3ee;
-    color: #1F4E5F
+    color: #1F4E5F;
 }
 
 .Habilidades {
@@ -128,101 +128,83 @@ body{
     border-radius: 20px;
     padding: 15px;
     max-width: 360px;
-   background-color: #8df5b4;
-   color: #1F4E5F
+    background-color: #8df5b4;
+    color: #1F4E5F;
 }
 
-/* Apartado Tecnologias */
+/* Sección Tecnologías */
 .Tecnologias {
-    position: relative;
-    max-width: 600px;
-    padding:0px 20px 20px
+    margin: 0;
+    color: #1F4E5F;
+    font-size: 28px;
+    padding: 80px 20px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Tecnologias h1 {
+    color: #2E8B8B;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .skill {
-    max-width: 600px;
-    margin: 20px 0;
-    font-size: 25px;
+    max-width: 180px;
+    margin: 12px 0;
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    border-radius: 10px;
-    color: rgb(248, 248, 248);
-    padding: 1% 8px;
+    border-radius: 14px;
+    color: #fff;
+    padding: 14px 20px 10px;
 }
 
-.skill p {
-    width: 100%;
+.skill-info {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    gap: 8px;
-    padding: 6px 8px;
+    gap: 16px;
+    margin-bottom: 10px;
 }
 
-.Progreso{
-    position: relative;
-    width: 100%;
-    height: 8px;
-    background: rgba(255, 255, 255, 0.966);
-    border-radius:500px;
-    overflow: hidden;
-    margin: 5px 0;
-    padding: 0 8px;
+.skill-info span {
+    flex: 1;
+    font-size: 22px;
+    font-weight: 600;
 }
 
-.Progreso::before{
-    content: '';
-    left: 0;
-    position: absolute;
-    width: var(--wth);
-    height: 100%;
-    background: linear-gradient(90deg, #0EA5E9, #38BDF8);
+
+/* Sección Proyectos */
+.proyectos_contendio {
+    padding: 80px 20px 20px;
 }
 
-.Titulo{
-    padding-top: 75px;
-    margin: 0;
-    padding-bottom: 1rem;
-    color: #2E8B8B;
-    font-size: 28px; 
-    margin-bottom: 1.5rem;
-}
-
-/* Apartado Proyectos */
-.proy-wrapper {
-    padding: 70px 10% 60px;
-}
- 
-.proy-header {
-    text-align: center;
+.proyecto_header {
     margin-bottom: 44px;
 }
- 
-.proy-header h1 {
-    font-size: 48px;
+
+.proyecto_header h1 {
+    font-size: 50px;
     font-weight: 600;
-    color: #2a9d8f;
+    color: #2E8B8B;
     margin: 0 0 14px;
+    text-align: center; 
 }
- 
-.proy-header p {
-    font-size: 16px;
-    color: #3d7a74;
-    max-width: 620px;
-    margin: 0 auto;
-    line-height: 1.7;
+
+.proyecto_header p {
+    font-size: 28px;
+    color: #1F4E5F;
+    margin: 0;
+    padding-left: 20px;
 }
- 
-.proy-grid {
+
+.tarjeta_contenido {
     display: flex;
     flex-wrap: wrap;
     gap: 22px;
     justify-content: center;
 }
 
-
-.proy-card {
+.proyectos_tarjeta {
     background: #ffffff;
     border-radius: 18px;
     padding: 20px 20px 18px;
@@ -232,13 +214,13 @@ body{
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.09);
     transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
- 
-.proy-card:hover {
+
+.proyectos_tarjeta:hover {
     transform: translateY(-6px);
     box-shadow: 0 10px 32px rgba(0, 0, 0, 0.14);
 }
- 
-.proy-badge {
+
+.proyec_link {
     display: inline-block;
     font-size: 11px;
     font-weight: 600;
@@ -246,89 +228,73 @@ body{
     padding: 3px 12px;
     margin-bottom: 14px;
     width: fit-content;
+    background: #c8f0ee;
+    color: #276221;
 }
- 
-.badge-green { background: #d4f5d0; color: #276221; }
-.badge-cyan  { background: #c8f0ee; color: #1a6b66; }
-.badge-amber { background: #fde8c0; color: #7a4500; }
- 
 
-.proy-card h2 {
+.proyectos_tarjeta h2 {
     font-size: 24px;
     font-weight: 600;
     color: #2a9d8f;
     margin: 0 0 10px;
 }
- 
-.proy-card p {
+
+.proyectos_tarjeta p {
     font-size: 13.5px;
     color: #555555;
     line-height: 1.6;
     margin: 0 0 16px;
     flex: 1;
 }
- 
-.proy-img-wrap {
+
+.proyec-img-wrap {
     width: 100%;
     margin-bottom: 16px;
 }
- 
-.proy-img {
+
+.proyec-img {
     width: 100%;
     height: 200px;
-    object-fit: contain;  
+    object-fit: contain;
     border-radius: 10px;
     display: block;
     border: none;
 }
 
-.proy-techs {
+.proyec_Tecnologias {
     display: flex;
     flex-wrap: wrap;
     gap: 6px;
     align-items: center;
 }
- 
-.tech {
-    font-size: 11.5px;
+
+.Tecnologias_usadas {
+    background: #d4f5d0;
+    color: #276221;
+    font-size: 12px;
     font-weight: 600;
     border-radius: 20px;
-    padding: 4px 12px;
+    padding: 4px 14px;
 }
 
-.Tecnologias_usadas { 
-    background: #c8f0ee; 
-    color: #1a6b66; 
-    font-size: 12px; 
-    font-weight: 600;
-    border-radius: 20px; 
-    padding: 4px 14px; 
-}
-
-/*Parte de contacto*/
-.formulariocontacto{ 
+/* Sección Contacto */
+.formulariocontacto {
     color: #183b47;
-    min-height: 100vh;
+    min-height: 55vh;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; 
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
-.form{
-    padding: 50px 50px;
-    box-shadow: 0 0 20px rgb(0, 0, 0, 0.2);
-    border-radius: 20px;
-    text-align: center;
-    width: 340px;
-}
-
-.input-group{
+.input-group {
     display: flex;
     flex-direction: column;
     text-align: left;
     border: 2px solid #69b0b9;
     background-color: #c3edf3;
-    border-radius:  25px;
+    border-radius: 25px;
     padding: 15px;
 }
 
@@ -344,69 +310,52 @@ body{
     font-size: 15px;
 }
 
-.label{
-    font-weight: 600px;
-    margin-bottom: 30px;   
-}
-
-.input, textarea {
+textarea {
     padding: 17px 25px;
     border-radius: 25px;
     margin-bottom: 30px;
-    background-color: #37a9b8;
     border: 2px solid #7FC8A9;
     outline: none;
-    background-color: #F1F8E9;  
-    color: white;
+    background-color: #F1F8E9;
+    color: rgb(34, 32, 32);
 }
 
-.input::placeholder, textarea::placeholder{
+textarea::placeholder {
     color: #41a1d1;
 }
 
-.btn{
+.btn {
     font-size: 16px;
-    color:  #ffffff;
+    color: #ffffff;
     border: 1px solid #3782a0;
     border-radius: 25px;
     background: linear-gradient(135deg, #A8E6CF, #74C2E1, #F1F8E9);
     cursor: pointer;
-    width: 150px;       
+    width: 150px;
     padding: 12px;
     margin: 10px auto 0;
 }
 
-/*Pie de página*/
+/* Pie de página */
 .piedepagina {
-  color: #1F4E5F; 
-  text-align: center;
-  padding: 20px;
-  border-top: 4px solid #4ab1da; 
-  font-family: 'Poppins', sans-serif;
+    color: #1F4E5F;
+    text-align: center;
+    padding: 20px;
+    border-top: 4px solid #4ab1da;
+    font-family: 'Poppins', sans-serif;
 }
 
 .piedepagina h2 {
-  color: #2E8B8B; 
-  margin-bottom: 10px;
+    color: #2E8B8B;
+    margin-bottom: 10px;
 }
 
-.piedepagina-links{
-  margin-top: 15px;
+.RedesSociales {
+    margin-top: 15px;
 }
 
-.piedepagina-links a {
-  color: #053d3c;;
-  text-decoration: none;
-  margin: 0 10px;
-  transition: 0.3s ease;
-}
-
-.RedesSociales{
-   margin-top: 15px;
-}
-
-.RedesSociales a{
-  font-size: 30px;
-  margin: 0 8px;
-  transition: 0.3s ease;
+.RedesSociales a {
+    font-size: 30px;
+    margin: 0 8px;
+    transition: 0.3s ease;
 }
