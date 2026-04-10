@@ -350,6 +350,10 @@ textarea::placeholder {
     margin-bottom: 10px;
 }
 
+.piedepagina hr {
+    border: 2px solid #62bee2;
+}
+
 .RedesSociales {
     margin-top: 15px;
 }
