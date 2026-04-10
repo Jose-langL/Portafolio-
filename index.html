@@ -191,22 +191,25 @@
     <section id="Nav_contacto">
         <div class="formulariocontacto">
             <div class="form-wrapper">
-                <form action="https://formspree.io/f/mbdpvlvq" method="POST">
+                <form action="https://formsubmit.co/totherrerajoseluis@gmail.com" method="POST">
                     <h1>Contacto</h1><br>
                     <div class="input-group">
                         <label for="name"><i class="fa-solid fa-user" style="color: rgb(124, 163, 230);"></i> Nombre</label>
-                        <input type="text" name="name" id="name" placeholder="Ingresa tu nombre"><br>
+                        <input type="text" name="name" id="name" placeholder="Ingresa tu nombre" required><br>
 
                         <label for="telefono"><i class="fa-solid fa-phone" style="color: rgb(124, 163, 230);"></i> Telefono</label>
-                        <input type="number" name="telefono" id="telefono" placeholder="Ingresa tu telefono"><br>
+                        <input type="tel" name="telefono" id="telefono" placeholder="Ingresa tu telefono" required><br>
 
                         <label for="correo"><i class="fa-solid fa-envelope" style="color: rgb(124, 163, 230);"></i> Email</label>
-                        <input type="email" name="correo" id="correo" placeholder="Ingresa tu email"><br>
+                        <input type="email" name="correo" id="correo" placeholder="Ingresa tu email" required><br>
 
                         <label for="mensaje"><i class="fa-solid fa-message" style="color: rgb(124, 163, 230);"></i> Mensaje</label><br>
-                        <textarea name="mensaje" id="mensaje" cols="30" rows="5" placeholder="Ingresa el mensaje a enviar"></textarea>
+                        <textarea name="mensaje" id="mensaje" cols="30" rows="5" placeholder="Ingresa el mensaje a enviar" required></textarea>
 
                         <input class="btn" type="submit" value="Enviar">
+
+                        <input type="hidden" name="_next" value="https://jose-langl.github.io/Portafolio-/">
+                        <input type="hidden" name="_captcha" value="false">
                     </div>
                 </form>
             </div>
