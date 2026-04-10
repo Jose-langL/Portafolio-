@@ -36,12 +36,6 @@ portafolio/
     └── ruleta1.png
 ```
 ---
-
-## 🐛 Problemas Conocidos
-
-- Al enviar el formulario de contacto, es posible que aparezca una página indicando que no es segura puedes cerrarla sin problema. No te preocupes, la información se envía correctamente.
----
-
 ## 📬 Contacto
  
 - 📧 totherrerajoseluis@gmail.com
