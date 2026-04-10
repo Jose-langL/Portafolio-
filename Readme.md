@@ -40,7 +40,7 @@ portafolio/
 ## 🐛 Problemas Conocidos
 
 - Al enviar el formulario de contacto, es posible que aparezca una página indicando que no es segura puedes cerrarla sin problema. No te preocupes, la información se envía correctamente.
----
+---  
 
 ## 📬 Contacto
  
